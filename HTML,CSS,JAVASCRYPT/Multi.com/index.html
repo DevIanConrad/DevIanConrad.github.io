@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1.0"/>
+    <title>Multapp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/imagehover.css/2.0.0/css/imagehover.min.css">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="css/imagehover.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+
+</head>
+<body>
+    <nav>
+        <a href="index.html"><img src="images/logo.png"></a>
+        <div class="nav-links">
+            <ul>
+                <li><a href="">HOME</a>
+                <li><a href="#about">ABOUT</a>
+            </ul>
+            
+        </div>
+    </nav>
+    
+
+<section class="index">
+    
+    
+
+    <div class="welcome">
+        Welcome
+    </div>
+
+    <div class="welcome2">
+        <h1>This is a multifunctional site</h1>
+    </div>
+
+    <div class="btnreveal">
+        <button id="btnreveal" type="button" class="btn btn-secondary btn-sm" 
+        onclick="redo(); changeConback();">Reveal Functionalities</button>
+    </div>
+    
+    <div class="row">
+        <div class="cell">
+            <div class="container">
+                <div class="box1">
+                    <img class="img1" src="images/calculator.png" alt="Calculator"> 
+                    <img class="gif1" src="images/calculator.gif" alt="calcGif">
+                    <div class="btnCalc">
+                        <a class="btn btn-secondary btn-sm" href="Calculator.html" id="btnCalc" role="button">Calculator</a>
+                    </div>    
+                </div>
+                <div class="box2">
+                    <img class="img2" src="images/calendar.png" alt="Weather" >
+                    <img class="gif2" src="images/calendar.gif" alt="calGif">
+                    <div class="btnCal">
+                        <a class="btn btn-secondary btn-sm" href="Calendar.html" id="btnCal" role="button">Calendar</a>
+                        
+                    </div>
+                </div>
+                <div class="box3">
+                    <img class="img3" src="images/weather.png" alt="Weather">
+                    <img class="gif3" src="images/weather.gif" alt="weatherGif">   
+                    <div class="btnWeth">
+                        <a class="btn btn-secondary btn-sm" href="Weather.html" id="btnWeth" role="button">Weather</a>
+                </div>               
+            </div>
+        </div>
+    </div>
+    
+
+    
+<div class="btnhide">
+    <button id="btnhide" type="button" 
+    class="btn btn-secondary btn-sm" 
+    onclick="hide(); 
+    changeheight(); changecontainer();">Hide Functionalities</button>
+</div>
+
+
+
+</section>
+
+
+<section class="about">
+<a id="about">
+
+<div class="containerAbout">
+<div class="aboutTitle">About</div>
+<p class="right1">   
+The project's objective is to give its users 
+the ability to use the website's functionalities
+</p>
+<p class="right2">by Ian Conrad Baarde, 
+    a BSIT student of Rizal Technological University.
+</p>
+
+<div class="aboutHire">Hire me!</div>
+<p class="right3">Email: baarde.6501@gmail.com</p>
+<p class="right4">FB:&nbsp;<a href="https://www.facebook.com/416E67656C61/">Ian Conrad Baarde</a></p>
+</div>
+
+<div class="me">
+    <a id="btnme" type="button" class="btn btn-secondary btn-sm " href="#" onclick="yourlink()">View Me</a>
+    <img src="images/me.png" alt="me">
+    </a>
+</div>
+</section>
+<script src="index.js"></script>
+</body>
+</html>
