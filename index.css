@@ -13,10 +13,10 @@ html,body{
 }
 
 *{
+    font-family: 'Inter', serif;
     min-width: 1;
     margin: 0;
     padding: 0;
-    font-family: 'Montserrat', sans-serif;
 }
 
 nav{
@@ -45,6 +45,7 @@ nav img
     
 .nav-links
 { 
+    font-family: 'Readex Pro', serif;
     margin-top: 15px;
     padding-bottom: 0px;
     flex: 1;
@@ -116,7 +117,7 @@ nav img
 .secProject
 {
     min-height: 385vh; width: 100%;
-    background-color: #34e4d8;
+    background: linear-gradient(to bottom, #34e4d8, #38afab, #208380);
     background-position: center; 
     background-size: cover; 
     position: relative;
@@ -237,6 +238,7 @@ nav img
 }
 
 .titleAbout{
+    font-family: 'Readex Pro', serif;
     margin: auto;
     width: 50%;
 }
@@ -298,6 +300,7 @@ nav img
 }
 
 .interest p{
+    font-family: 'Inter', serif;
     font-size: 30px;
     font-weight: 700;
     justify-content: center;
@@ -310,10 +313,12 @@ nav img
     font-size: 110%;
 }
 .right > .name{
+    font-family: 'Inter', serif;
     font-size: 300%;
 }
 
 .right p{
+    font-family: 'Inter', serif;
     padding-right: 19%;
 }
 
@@ -362,16 +367,19 @@ nav img
 
 .text1,
 .text3{
+    font-family: 'Inter', serif;
     display: none;
     padding-top: 15%;
 }
 
 .text2{
+    font-family: 'Inter', serif;
     display: none;
     padding-top: 5%;
 }
 
 .languages p{
+    font-family: 'Inter', serif;
     font-size: 30px;
     font-weight: 700;
     justify-content: center;
@@ -379,7 +387,12 @@ nav img
     padding-top: 2%;
 }
 
+.langs{
+    font-family: 'Inter', serif;
+}
+
 #_des p{
+    font-family: 'Inter', serif;
     font-size: 30px;
     font-weight: 700;
     justify-content: center;
@@ -408,6 +421,7 @@ nav img
 #_row > #_cplus,
 #_row2 > #_mysql,
 #_row2 > #_bootstrap{
+    font-family: 'Inter', serif;
     transition: 0.5s;
 }
 
@@ -444,6 +458,7 @@ nav img
 }
 
 .projIntro h3{
+    font-family: 'Inter', serif;
     font-size: 50px;
     padding-top: 5%;
 }
@@ -470,6 +485,10 @@ nav img
     padding-top: 2%;
     z-index: 1;
 
+}
+
+#_rowProj > #add1{
+    margin-top: 50px;
 }
 
 
@@ -675,8 +694,7 @@ nav img
 }
 
 
-@media screen and (max-width: 1280px),
-  screen and (max-height: 720px){
+@media screen and (max-width: 1280px){
 
     .introContainer{
         position: absolute;
@@ -797,7 +815,12 @@ nav img
 
 
 
-
+    #_rowProj > #add1{
+        margin-left: -100%;
+        margin-top: 40%;
+        z-index: 2;
+        
+    }
 
     #_rowProj > #com1{
         margin-left: -100%;
@@ -854,6 +877,158 @@ nav img
 
   }
 
+  @media screen and (max-width: 1199px){
+
+    #_rowProj > #add1{
+        margin-left: -100%;
+        margin-top: 50%;
+        z-index: 2;
+        
+    }
+
+    #_rowProj > #com1{
+        margin-left: -100%;
+        margin-top: 34%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com2{
+        margin-left: -100%;
+        margin-top: 31%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com3{
+        margin-left: -100%;
+        margin-top: 31%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com4{
+        margin-left: -100%;
+        margin-top: 31%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com5{
+        margin-left: -100%;
+        margin-top: 26%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com6{
+        
+        margin-left: -100%;
+        margin-top: 34%;
+        z-index: 2;
+        }
+
+   
+
+  }
+
+  @media screen and (max-width: 990px){
+
+    #_rowProj > #add1{
+        margin-left: -100%;
+        margin-top: 79%;
+        z-index: 2;
+        
+    }
+
+    #_rowProj > #com1{
+        margin-left: -100%;
+        margin-top: 49%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com2{
+        margin-left: -100%;
+        margin-top: 45%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com3{
+        margin-left: -100%;
+        margin-top: 45%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com4{
+        margin-left: -100%;
+        margin-top: 45%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com5{
+        margin-left: -100%;
+        margin-top: 35%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com6{
+        
+        margin-left: -100%;
+        margin-top: 45%;
+        z-index: 2;
+        }
+
+       
+
+  }
+
+
+  @media screen and (max-width: 480px){
+
+    #_rowProj > #add1{
+        margin-left: -100%;
+        margin-top: 140%;
+        z-index: 2;
+    }
+  
+    #_rowProj > #com1{
+        margin-left: -100%;
+        margin-top: 105%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com2{
+        margin-left: -100%;
+        margin-top: 75%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com3{
+        margin-left: -100%;
+        margin-top: 90%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com4{
+        margin-left: -100%;
+        margin-top: 80%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com5{
+        margin-left: -100%;
+        margin-top: 60%;
+        z-index: 2;
+        
+    }
+    #_rowProj > #com6{
+        
+        margin-left: -100%;
+        margin-top: 90%;
+        z-index: 2;
+        }
+
+
+       
+
+
+
+}
 
 
 
@@ -1020,7 +1195,13 @@ nav img
     
 
 }
-     
+
+#_rowProj > #add1{
+    margin-left: -100%;
+    margin-top: 180%;
+    z-index: 2;
+}
+
 #_rowProj > #com1{
     margin-left: -100%;
     margin-top: 105%;
@@ -1062,50 +1243,5 @@ nav img
 
 
 
-@media screen and (max-width: 480px),
-  screen and (max-height: 850px){
-  
-    #_rowProj > #com1{
-        margin-left: -100%;
-        margin-top: 105%;
-        z-index: 2;
-        
-    }
-    #_rowProj > #com2{
-        margin-left: -100%;
-        margin-top: 75%;
-        z-index: 2;
-        
-    }
-    #_rowProj > #com3{
-        margin-left: -100%;
-        margin-top: 90%;
-        z-index: 2;
-        
-    }
-    #_rowProj > #com4{
-        margin-left: -100%;
-        margin-top: 80%;
-        z-index: 2;
-        
-    }
-    #_rowProj > #com5{
-        margin-left: -100%;
-        margin-top: 60%;
-        z-index: 2;
-        
-    }
-    #_rowProj > #com6{
-        
-        margin-left: -100%;
-        margin-top: 90%;
-        z-index: 2;
-        }
 
-
-       
-
-
-
-}
 

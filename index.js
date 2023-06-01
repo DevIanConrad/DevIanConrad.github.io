@@ -1,6 +1,6 @@
 
     // List of sentences
-var _CONTENT = [ "A Web/Software Developer", "An Aspiring Full-Stack Developer", "An Aspiring Software Engineer", ];
+var _CONTENT = [ "A Web/Software Developer", "An Aspiring Full-Stack Developer", "An Aspiring Software Engineer", "A Cinematographer", "A Video Editor", ];
 
 // Current sentence being processed
 var _PART = 0;
@@ -24,7 +24,7 @@ function Type() {
 	if(text === _CONTENT[_PART]) {
 		clearInterval(_INTERVAL_VAL);
 		setTimeout(function() {
-			_INTERVAL_VAL = setInterval(Delete, 80);
+			_INTERVAL_VAL = setInterval(Delete, 30);
 		}, 2500);
 	}
 }
@@ -119,6 +119,28 @@ var box2 = document.getElementById("bx2");
 	}, false);
 //---------------------------------------------------------------------
 
+function onHoverAdd()
+{
+    $("#menuImgAdd").attr('src', 'gif/RTUDMS.gif');
+	
+}
+
+function offHoverAdd()
+{
+    $("#menuImgAdd").attr('src', 'proj/RTUDMS.png');
+}
+
+function onHoverAdd2()
+{
+    $("#menuImgAdd2").attr('src', 'gif/LANDINGPAGE.gif');
+	
+}
+
+function offHoverAdd2()
+{
+    $("#menuImgAdd2").attr('src', 'proj/LANDINGPAGE.png');
+}
+
 function onHover()
 {
     $("#menuImg").attr('src', 'gif/multapp.gif');
@@ -187,6 +209,39 @@ function offHover5()
 
     $("#menuImg5").attr('src', 'proj/first.png');
 }
+
+window.addEventListener('DOMContentLoaded', function() {
+    var divsToLoad = Array.from(document.querySelectorAll('.load-on-scroll'));
+    var loadedDivs = [];
+
+    var options = {
+      root: null,
+      rootMargin: '0px',
+      threshold: 0.5
+    };
+
+    var isMobile = window.innerWidth <= 480;
+
+  if (isMobile) {
+  
+    options.threshold = 0.3;
+  }
+
+    function handleIntersection(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting && !loadedDivs.includes(entry.target)) {
+          entry.target.classList.remove('nonVisible');
+          entry.target.classList.add('visible');
+          loadedDivs.push(entry.target);
+        }
+      });
+    }
+
+    var observer = new IntersectionObserver(handleIntersection, options);
+    divsToLoad.forEach(function(div) {
+      observer.observe(div);
+    });
+  });
 
 
 
