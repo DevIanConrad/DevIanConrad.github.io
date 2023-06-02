@@ -13,7 +13,7 @@ html,body{
 }
 
 *{
-    font-family: 'Inter', serif; 
+    font-family: 'Inter', serif;
     min-width: 1;
     margin: 0;
     padding: 0;
@@ -822,6 +822,14 @@ nav img
         
     }
 
+    
+    #_rowProj > #add2{
+        margin-left: -100%;
+        margin-top: 90%;
+        z-index: 2;
+        
+    }
+
     #_rowProj > #com1{
         margin-left: -100%;
         margin-top: 30%;
@@ -873,6 +881,25 @@ nav img
             color: white;
         }
 
+        .contactform {
+            border: solid 1px black;
+            border-radius: 5px;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 2%;
+          }
+    
+          #contact > #socials{
+            padding-left: 40%;
+         }
+    
+         .messageme{
+            padding-top: 2%;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 100%;
+        }
+
 
 
   }
@@ -882,6 +909,13 @@ nav img
     #_rowProj > #add1{
         margin-left: -100%;
         margin-top: 50%;
+        z-index: 2;
+        
+    }
+
+    #_rowProj > #add2{
+        margin-left: -100%;
+        margin-top: 35%;
         z-index: 2;
         
     }
@@ -921,6 +955,25 @@ nav img
         margin-left: -100%;
         margin-top: 34%;
         z-index: 2;
+        }
+
+        .contactform {
+            border: solid 1px black;
+            border-radius: 5px;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 2%;
+          }
+    
+          #contact > #socials{
+            padding-left: 40%;
+         }
+    
+         .messageme{
+            padding-top: 2%;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 100%;
         }
 
    
@@ -973,6 +1026,25 @@ nav img
         z-index: 2;
         }
 
+        .contactform {
+            border: solid 1px black;
+            border-radius: 5px;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 2%;
+          }
+    
+          #contact > #socials{
+            padding-left: 25%;
+         }
+    
+         .messageme{
+            padding-top: 2%;
+            margin-left: 5%;
+            margin-right: 5%;
+            font-size: 100%;
+        }
+
        
 
   }
@@ -1023,6 +1095,10 @@ nav img
         z-index: 2;
         }
 
+        
+        #contact > #socials{
+            padding-left: 5%;
+         }
 
        
 
@@ -1169,9 +1245,12 @@ nav img
         padding: 2%;
       }
 
-      #contact > #socials{
-        padding-left: 5%;
+      #contact > #socials svg{
+        height: 2em !important;
+        width: 2em !important;
+        margin-left: 1px !important;
      }
+
 
      .messageme{
         padding-top: 2%;
@@ -1198,13 +1277,19 @@ nav img
 
 #_rowProj > #add1{
     margin-left: -100%;
-    margin-top: 180%;
+    margin-top: 170%;
+    z-index: 2;
+}
+
+#_rowProj > #add2{
+    margin-left: -100%;
+    margin-top: 85%;
     z-index: 2;
 }
 
 #_rowProj > #com1{
     margin-left: -100%;
-    margin-top: 105%;
+    margin-top: 95%;
     z-index: 2;
     
 }

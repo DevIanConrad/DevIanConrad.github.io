@@ -12,7 +12,7 @@ var _PART_INDEX = 0;
 var _INTERVAL_VAL;
 
 // Element that holds the text
-var _ELEMENT = document.querySelector("#text"); 
+var _ELEMENT = document.querySelector("#text");
 
 // Implements typing effect
 function Type() { 
