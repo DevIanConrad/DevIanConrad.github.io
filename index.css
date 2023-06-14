@@ -116,6 +116,18 @@ nav img
 
 .secProject
 {
+    
+    min-height: 385vh; width: 100%;
+    background: linear-gradient(to bottom, #34e4d8, #38afab, #208380);
+    background-position: center; 
+    background-size: cover; 
+    position: relative;
+    color: black;
+}
+
+.secProject1
+{
+    display: none;
     min-height: 385vh; width: 100%;
     background: linear-gradient(to bottom, #34e4d8, #38afab, #208380);
     background-position: center; 
@@ -463,23 +475,68 @@ nav img
     padding-top: 5%;
 }
 
-#_startProj{
-    padding-top: 2%;
+.projTitle h3{
+    font-family: 'Readex Pro', serif;
+    font-size: 24px;
 }
+
+
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+
+.prev,
+  .projTitle,
+  .next{
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  .prev, .next{
+    
+    text-decoration: none;
+    color: black;
+    margin: 0px 300px;
+    padding: 5px 5px;
+    font-size: 30px;
+    transition: 0.3s ease;
+  }
+
+  .prev:hover, .next:hover{
+    color: #234b48;
+  }
+
+  .dot {
+    cursor: pointer;
+    height: 1px;
+    width: 50px;
+    background-color: #030303;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+
+  .dot:hover {
+    background-color: #234b48;
+}
+
+
 
 #borderMultapp{
     margin-right: -15%;
 }
 
 #_1st{
-    padding: 5%;
+    padding: 1% 5% 5% 5%; 
 }
 
-#_startProj p{
-    padding-top: 40%;
-    margin-right: -50%;
-    z-index: 2;
-}
 
 #_rowProj > #_1stContents{
     padding-top: 2%;

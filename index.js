@@ -1,6 +1,6 @@
 
     // List of sentences
-var _CONTENT = [ "A Web/Software Developer", "An Aspiring Full-Stack Developer", "An Aspiring Software Engineer", "A Cinematographer", "A Video Editor", ];
+var _CONTENT = [ "A Web Developer", "A Software Engineer", "An Aspiring Full-Stack Developer",  "A Cinematographer", "A Video Editor", ];
 
 // Current sentence being processed
 var _PART = 0;
@@ -244,4 +244,59 @@ window.addEventListener('DOMContentLoaded', function() {
   });
 
 
+
+  function compareObjects(obj1, obj2) {
+	
+	const keys1 = Object.keys(obj1);
+	const keys2 = Object.keys(obj2);
+  
+	
+	if (keys1.length !== keys2.length) {
+	  return false;
+	}
+  
+	
+	for (let key of keys1) {
+	  if (obj1[key] !== obj2[key]) {
+		return false;
+	  }
+	}
+  
+	
+	return true;
+  }
+
+
+
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  
+    showSlides(slideIndex += n);
+    if (slideIndex === 1) {
+      document.getElementById('projTitle').textContent = "Programming Related";
+	
+    } else {
+      document.getElementById('projTitle').textContent = "Video/Cinematography projects";
+	 
+    }
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  
+  slides[slideIndex-1].style.display = "block";  
+  
+}
 
