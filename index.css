@@ -750,6 +750,10 @@ nav img
    padding-left: 20%;
 }
 
+.space{
+    margin-left: 500px;
+}
+
 
 @media screen and (max-width: 1280px){
 
