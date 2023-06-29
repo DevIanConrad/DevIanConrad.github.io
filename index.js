@@ -141,6 +141,18 @@ function offHoverAdd2()
     $("#menuImgAdd2").attr('src', 'proj/LANDINGPAGE.png');
 }
 
+function onHoverAdd3()
+{
+    $("#menuImgAdd3").attr('src', 'gif/Todo.gif');
+	
+}
+
+function offHoverAdd3()
+{
+    $("#menuImgAdd3").attr('src', 'proj/todo.png');
+}
+
+
 function onHover()
 {
     $("#menuImg").attr('src', 'gif/multapp.gif');
@@ -298,20 +310,4 @@ function showSlides(n) {
   
   slides[slideIndex-1].style.display = "block";  
   
-}
-
-// Load the YouTube iframe API
-var tag = document.createElement('script');
-tag.src = "https://www.youtube.com/iframe_api";
-var firstScriptTag = document.getElementsByTagName('script')[0];
-firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
-
-// Create the player when the API is ready
-var player;
-function onYouTubeIframeAPIReady() {
-  player = new YT.Player('player', {
-    videoId: 'lCJCT9-e-6s', // Replace with your video ID
-    width: 500,
-    height: 400
-  });
 }

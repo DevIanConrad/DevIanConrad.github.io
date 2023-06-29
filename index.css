@@ -886,7 +886,14 @@ nav img
     
     #_rowProj > #add2{
         margin-left: -100%;
-        margin-top: 90%;
+        margin-top: 26%;
+        z-index: 2;
+        
+    }
+
+    #_rowProj > #add3{
+        margin-left: -100%;
+        margin-top: 26%;
         z-index: 2;
         
     }
@@ -981,6 +988,13 @@ nav img
         
     }
 
+    #_rowProj > #add3{
+        margin-left: -100%;
+        margin-top: 35%;
+        z-index: 2;
+        
+    }
+
     #_rowProj > #com1{
         margin-left: -100%;
         margin-top: 34%;
@@ -1046,6 +1060,20 @@ nav img
     #_rowProj > #add1{
         margin-left: -100%;
         margin-top: 79%;
+        z-index: 2;
+        
+    }
+
+    #_rowProj > #add2{
+        margin-left: -100%;
+        margin-top: 45%;
+        z-index: 2;
+        
+    }
+
+    #_rowProj > #add3{
+        margin-left: -100%;
+        margin-top: 45%;
         z-index: 2;
         
     }
@@ -1118,41 +1146,54 @@ nav img
         margin-top: 140%;
         z-index: 2;
     }
+
+    #_rowProj > #add2{
+        margin-left: -100%;
+        margin-top: 70%;
+        z-index: 2;
+    }
+
+    #_rowProj > #add3{
+        margin-left: -100%;
+        margin-top: 70%;
+        z-index: 2;
+    }
   
     #_rowProj > #com1{
-        margin-left: -100%;
-        margin-top: 105%;
-        z-index: 2;
-        
-    }
-    #_rowProj > #com2{
         margin-left: -100%;
         margin-top: 75%;
         z-index: 2;
         
     }
+    #_rowProj > #com2{
+        margin-left: -100%;
+        margin-top: 65%;
+        z-index: 2;
+        
+    }
+    
     #_rowProj > #com3{
         margin-left: -100%;
-        margin-top: 90%;
+        margin-top:70%;
         z-index: 2;
         
     }
     #_rowProj > #com4{
         margin-left: -100%;
-        margin-top: 80%;
+        margin-top: 65%;
         z-index: 2;
         
     }
     #_rowProj > #com5{
         margin-left: -100%;
-        margin-top: 60%;
+        margin-top: 55%;
         z-index: 2;
         
     }
     #_rowProj > #com6{
         
         margin-left: -100%;
-        margin-top: 90%;
+        margin-top: 70%;
         z-index: 2;
         }
 
@@ -1343,6 +1384,12 @@ nav img
 }
 
 #_rowProj > #add2{
+    margin-left: -100%;
+    margin-top: 85%;
+    z-index: 2;
+}
+
+#_rowProj > #add3{
     margin-left: -100%;
     margin-top: 85%;
     z-index: 2;
